@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Trigen Interiors — Interior Manufacturer in Karachi. Kitchens, wardrobes, doors, workstations and custom interior solutions.">
+  <title>Trigen Interiors | Redefine Your Spaces</title>
+  <link rel="icon" href="assets/trigen-logo.webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="loader">
+    <div class="loader-mark">TRIGEN</div>
+    <div class="loader-line"><span></span></div>
+    <small>INTERIORS</small>
+  </div>
+
+  <header class="nav">
+    <a class="brand" href="#home">
+      <img src="assets/trigen-logo.webp" alt="Trigen Interiors logo">
+    </a>
+    <button class="menu-toggle" aria-label="Open menu"><span></span><span></span><span></span></button>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#showroom">Showroom</a>
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#contact" class="nav-cta">Get Quote</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <canvas id="hero3d"></canvas>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">INTERIOR MANUFACTURER • KARACHI • PAKISTAN</p>
+        <h1>It’s time to<br><em>redefine</em> your spaces.</h1>
+        <p class="hero-copy">From 2D & 3D concepts to manufacturing and installation — custom interiors crafted with experience, precision and purpose.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#showroom">Explore Showroom <span>↗</span></a>
+          <a class="button button-ghost" href="https://wa.me/923192511803?text=Hello%20Trigen%20Interiors%2C%20I%20would%20like%20a%20quotation." target="_blank" rel="noopener">WhatsApp Us</a>
+        </div>
+      </div>
+      <div class="hero-scroll">SCROLL TO EXPLORE <span>↓</span></div>
+      <div class="hero-badge"><strong>3rd</strong><span>Generation<br>Craftsmanship</span></div>
+    </section>
+
+    <section class="intro section">
+      <div class="section-number">01</div>
+      <div class="intro-grid">
+        <div>
+          <p class="eyebrow">ONE WINDOW SOLUTION</p>
+          <h2>We turn <span>visions</span><br>into reality.</h2>
+        </div>
+        <div class="intro-text">
+          <p>Trigen Interiors is a third-generation interior and furniture business delivering custom manufacturing, installation and complete interior solutions.</p>
+          <p>We combine traditional craftsmanship with modern production and project execution for residential, commercial and corporate spaces.</p>
+          <a href="#about" class="text-link">Discover Trigen <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services section dark">
+      <div class="section-number">02</div>
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">WHAT WE DO</p>
+          <h2>Built around<br><em>your space.</em></h2>
+        </div>
+        <p class="section-lead">Design, manufacture and installation under one roof — tailored to your requirements.</p>
+      </div>
+      <div class="service-grid">
+        <article class="service-card">
+          <span>01</span><div class="service-icon">▱</div>
+          <h3>Kitchens</h3><p>Custom modular and bespoke kitchen manufacturing.</p><a href="#showroom">Explore →</a>
+        </article>
+        <article class="service-card">
+          <span>02</span><div class="service-icon">▥</div>
+          <h3>Wardrobes</h3><p>Functional wardrobes designed around your lifestyle.</p><a href="#showroom">Explore →</a>
+        </article>
+        <article class="service-card">
+          <span>03</span><div class="service-icon">▯</div>
+          <h3>Doors</h3><p>Interior doors, frames and custom woodwork.</p><a href="#showroom">Explore →</a>
+        </article>
+        <article class="service-card">
+          <span>04</span><div class="service-icon">⌗</div>
+          <h3>Workstations</h3><p>Office furniture and workstation solutions.</p><a href="#showroom">Explore →</a>
+        </article>
+        <article class="service-card">
+          <span>05</span><div class="service-icon">◫</div>
+          <h3>Bedroom & LCD Walls</h3><p>Feature walls, TV units and bedroom interiors.</p><a href="#showroom">Explore →</a>
+        </article>
+        <article class="service-card">
+          <span>06</span><div class="service-icon">⌂</div>
+          <h3>Renovation & Woodwork</h3><p>Partitions, cabinets, cladding and carpentry.</p><a href="#showroom">Explore →</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="showroom" class="showroom section">
+      <div class="section-number">03</div>
+      <div class="section-head">
+        <div><p class="eyebrow">THE TRIGEN SHOWROOM</p><h2>Objects that<br><em>complete a room.</em></h2></div>
+        <p class="section-lead">Furniture, surfaces and decorative details — curated to inspire your next interior.</p>
+      </div>
+
+      <div class="filter-bar" role="tablist">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="kitchen">Kitchens</button>
+        <button class="filter" data-filter="wardrobe">Wardrobes</button>
+        <button class="filter" data-filter="furniture">Furniture</button>
+        <button class="filter" data-filter="decor">Decor</button>
+        <button class="filter" data-filter="office">Office</button>
+      </div>
+
+      <div class="gallery" id="gallery">
+        <!-- Images are loaded from Unsplash's public image CDN. Replace URLs with your own project photos anytime. -->
+      </div>
+    </section>
+
+    <section class="statement">
+      <div class="statement-inner">
+        <p class="eyebrow">CRAFTED FOR LIFE</p>
+        <h2>Good interiors don't<br><em>just look beautiful.</em><br>They work beautifully.</h2>
+      </div>
+    </section>
+
+    <section id="projects" class="projects section dark">
+      <div class="section-number">04</div>
+      <div class="section-head">
+        <div><p class="eyebrow">SELECTED PROJECTS</p><h2>Made for<br><em>real places.</em></h2></div>
+        <p class="section-lead">Corporate, commercial and residential work executed with attention to detail.</p>
+      </div>
+      <div class="project-grid">
+        <article class="project project-large">
+          <img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1400&q=85" alt="Modern office interior">
+          <div><span>01 • CORPORATE</span><h3>Modern Workspaces</h3></div>
+        </article>
+        <article class="project">
+          <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1000&q=85" alt="Luxury interior">
+          <div><span>02 • RESIDENTIAL</span><h3>Contemporary Living</h3></div>
+        </article>
+        <article class="project">
+          <img src="https://images.unsplash.com/photo-1556912167-f556f1f39fdf?auto=format&fit=crop&w=1000&q=85" alt="Modern kitchen">
+          <div><span>03 • KITCHEN</span><h3>Custom Kitchen</h3></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="about section">
+      <div class="section-number">05</div>
+      <div class="about-grid">
+        <div>
+          <p class="eyebrow">OUR STORY</p>
+          <h2>Crafting excellence<br><em>through generations.</em></h2>
+        </div>
+        <div class="about-copy">
+          <p>Trigen Interiors carries a family tradition of craftsmanship into modern interior manufacturing. Our experience spans custom furniture, kitchens, wardrobes, doors, workstations and complete interior execution.</p>
+          <p>From the first concept to the final installation, our goal is simple: build spaces that feel considered, durable and distinctly yours.</p>
+          <div class="stats">
+            <div><strong>3rd</strong><span>Generation<br>Heritage</span></div>
+            <div><strong>1</strong><span>Window<br>Solution</span></div>
+            <div><strong>PK</strong><span>Custom<br>Solutions</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="process section">
+      <p class="eyebrow">HOW WE WORK</p>
+      <h2>From idea to <em>installation.</em></h2>
+      <div class="process-line">
+        <div><b>01</b><h3>Consult</h3><p>Understand your space, needs and budget.</p></div>
+        <div><b>02</b><h3>Concept</h3><p>2D/3D planning and material selection.</p></div>
+        <div><b>03</b><h3>Manufacture</h3><p>Precision fabrication by our team.</p></div>
+        <div><b>04</b><h3>Install</h3><p>Professional site execution and finishing.</p></div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section dark">
+      <div class="contact-orb"></div>
+      <div class="contact-grid">
+        <div>
+          <p class="eyebrow">LET'S BUILD SOMETHING</p>
+          <h2>Ready to<br><em>redefine</em> your space?</h2>
+          <p class="contact-copy">Tell us what you're planning. We'll help turn the idea into a practical, beautiful interior.</p>
+        </div>
+        <div class="contact-card">
+          <a href="https://wa.me/923192511803?text=Hello%20Trigen%20Interiors%2C%20I%20would%20like%20a%20free%20consultation." target="_blank" rel="noopener"><span>WhatsApp</span><strong>0319 2511803 ↗</strong></a>
+          <a href="mailto:trigeninteriors@gmail.com"><span>Email</span><strong>trigeninteriors@gmail.com ↗</strong></a>
+          <a href="https://trigeninteriors.com" target="_blank" rel="noopener"><span>Website</span><strong>trigeninteriors.com ↗</strong></a>
+          <div class="socials">
+            <a href="#" aria-label="Instagram">Instagram</a>
+            <a href="#" aria-label="Facebook">Facebook</a>
+            <a href="#" aria-label="TikTok">TikTok</a>
+            <a href="#" aria-label="LinkedIn">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <img src="assets/trigen-logo.webp" alt="Trigen Interiors">
+    <p>© <span id="year"></span> Trigen Interiors. All rights reserved.</p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
